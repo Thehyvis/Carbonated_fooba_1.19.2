@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:water_bottles"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:soul_sand"
+    },
+    {
+      "item": "carbonated_fooba_core:empty_can"
+    }
+  ],
+  "result": {
+    "item": "carbonated_fooba_core:carbonated_fooba"
+  }
+}

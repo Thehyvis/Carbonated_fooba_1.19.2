@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:tin"
+    }
+  },
+  "result": {
+    "item": "carbonated_fooba_core:carbonated_fooba",
+    "count": 2
+  }
+}

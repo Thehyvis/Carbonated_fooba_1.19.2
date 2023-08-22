@@ -1,0 +1,14 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "tag": "forge:tin"
+    }
+  ],
+  "results": [
+    {
+      "item": "carbonated_fooba_core:tin_can",
+      "count": 4
+    }
+  ]
+}
