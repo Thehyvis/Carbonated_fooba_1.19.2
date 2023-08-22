@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "carbonated_fooba_core:enlarged_glass_bottles"
+      "item": "carbonated_fooba_core:enlarged_glass_bottle"
     },
     {
       "item": "minecraft:water_bucket"
     }
   ],
   "result": {
-    "item": "carbonated_fooba_core:enlarged_water_bottles"
+    "item": "carbonated_fooba_core:enlarged_water_bottle"
   }
 }

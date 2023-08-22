@@ -18,7 +18,14 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, CarbonatedFoobaCore.MOD_ID);
 
     public static final RegistryObject<Item> CARBONATED_FOOBA = ITEMS.register("carbonated_fooba",
-            () -> new FoobaItem(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(17).food(new FoodProperties.Builder().nutrition(4).saturationMod(4).alwaysEat().effect(() -> new MobEffectInstance(MobEffects.HEALTH_BOOST, 2000, 2), 1F).effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 10*20, 0), 0.3F).effect(() -> new MobEffectInstance(MobEffects.HEAL, 1, 4), 1F).effect(() -> new MobEffectInstance(MobEffects.POISON, 100, 2), 0.05F).effect(() -> new MobEffectInstance(MobEffects.WITHER, 60, 1), 0.05F).build())));
+            () -> new FoobaItem(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
+                    .stacksTo(17).food(new FoodProperties.Builder().nutrition(4)
+                            .saturationMod(4).alwaysEat()
+                            .effect(() -> new MobEffectInstance(MobEffects.HEALTH_BOOST, 2000, 2), 1F)
+                            .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 10*20, 0), 0.3F)
+                            .effect(() -> new MobEffectInstance(MobEffects.HEAL, 1, 2), 1F)
+                            .effect(() -> new MobEffectInstance(MobEffects.POISON, 100, 2), 0.05F)
+                            .effect(() -> new MobEffectInstance(MobEffects.WITHER, 60, 3), 0.05F).build())));
 
     public static final RegistryObject<Item> EMPTY_CAN = ITEMS.register("empty_can",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(17)));
@@ -30,7 +37,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(17)));
 
     public static final RegistryObject<Item> ENLARGED_WATER_BOTTLE = ITEMS.register("enlarged_water_bottle",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(17)));
+            () -> new Item(new Item.Properties().craftRemainder(ModItems.ENLARGED_GLASS_BOTTLE.get()).tab(CreativeModeTab.TAB_FOOD).stacksTo(17)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
