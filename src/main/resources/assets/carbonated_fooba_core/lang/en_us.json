@@ -1,5 +1,9 @@
 {
   "item.carbonated_fooba_core.carbonated_fooba": "Carbonated Fooba",
   "item.carbonated_fooba_core.empty_can": "Empty Can",
-  "item.carbonated_fooba_core.tin_can": "Tin Can"
+  "item.carbonated_fooba_core.tin_can": "Tin Can",
+
+  "tooltip.carbonated_fooba_core.carbonated_fooba_shift": "Contains soulsand. Can cause Nausea, Temporary blindness, poisoning, and withering. Product should not be consumed under any circumstances",
+  "tooltip.carbonated_fooba_core.carbonated_fooba": "Press SHIFT for more info"
+
 }
