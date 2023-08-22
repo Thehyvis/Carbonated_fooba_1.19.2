@@ -55,7 +55,7 @@ public class FoobaItem extends Item {
         if (Screen.hasShiftDown()) {
         components.add(Component.translatable("tooltip.carbonated_fooba_core.carbonated_fooba_shift").withStyle(ChatFormatting.AQUA));
         } else {
-            components.add(Component.translatable("tooltip.carbonated_fooba_core.carbonated_fooba").withStyle(ChatFormatting.AQUA));
+            components.add(Component.translatable("tooltip.carbonated_fooba_core.carbonated_fooba").withStyle(ChatFormatting.WHITE));
         }
 
         super.appendHoverText(stack, level, components, flag);
