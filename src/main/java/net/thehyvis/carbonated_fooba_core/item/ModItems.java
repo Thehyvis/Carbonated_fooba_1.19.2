@@ -21,8 +21,8 @@ public class ModItems {
             () -> new FoobaItem(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)
                     .stacksTo(17).food(new FoodProperties.Builder().nutrition(4)
                             .saturationMod(4).alwaysEat()
-                            .effect(() -> new MobEffectInstance(MobEffects.HEALTH_BOOST, 2000, 2), 1F)
-                            .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 10*20, 0), 0.3F)
+                            .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 2000, 2), 1F)
+                            .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 10*20, 0), 0.2F)
                             .effect(() -> new MobEffectInstance(MobEffects.HEAL, 1, 2), 1F)
                             .effect(() -> new MobEffectInstance(MobEffects.POISON, 100, 2), 0.05F)
                             .effect(() -> new MobEffectInstance(MobEffects.WITHER, 60, 3), 0.05F).build())));
