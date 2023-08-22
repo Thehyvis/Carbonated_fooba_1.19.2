@@ -1,10 +1,5 @@
 {
   "item.carbonated_fooba_core.carbonated_fooba": "Carbonated Fooba",
-  "item.carbonated_fooba_core.empty_can": "Tin Can",
-
-
-  "item.carbonated_fooba_core.naga_banner_pattern": "Banner Pattern",
-  "item.carbonated_fooba_core.naga_banner_pattern.desc": "Naga Scales",
-  "item.carbonated_fooba_core.snow_queen_banner_pattern": "Banner Pattern",
-  "item.carbonated_fooba_core.snow_queen_banner_pattern.desc": "Queen Scales"
+  "item.carbonated_fooba_core.empty_can": "Empty Can",
+  "item.carbonated_fooba_core.tin_can": "Tin Can"
 }
