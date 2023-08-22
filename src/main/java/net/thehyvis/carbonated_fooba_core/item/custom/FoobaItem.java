@@ -53,7 +53,7 @@ public class FoobaItem extends Item {
     @Override
     public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
         if (Screen.hasShiftDown()) {
-        components.add(Component.translatable("tooltip.carbonated_fooba_core.carbonated_fooba_shift").withStyle(ChatFormatting.WHITE));
+        components.add(Component.translatable("tooltip.carbonated_fooba_core.carbonated_fooba_shift").withStyle(ChatFormatting.AQUA));
         } else {
             components.add(Component.translatable("tooltip.carbonated_fooba_core.carbonated_fooba").withStyle(ChatFormatting.AQUA));
         }
