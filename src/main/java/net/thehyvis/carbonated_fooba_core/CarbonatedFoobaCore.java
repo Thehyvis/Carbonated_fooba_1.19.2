@@ -28,6 +28,10 @@ public class CarbonatedFoobaCore
 
         ModItems.register(modEventBus);
 
+        //fluid
+
+
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -41,7 +45,7 @@ public class CarbonatedFoobaCore
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event)
     {
-        LOGGER.info("Server Succesfully Carbonated Fooba");
+        LOGGER.info("Server Successfully Carbonated Fooba");
     }
 
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -51,7 +55,7 @@ public class CarbonatedFoobaCore
         public static void onClientSetup(FMLClientSetupEvent event)
         {
             // Some client setup code
-            LOGGER.info("Client Succesfully Carbonated Fooba");
+            LOGGER.info("Client Successfully Carbonated Fooba");
             LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
         }
     }
