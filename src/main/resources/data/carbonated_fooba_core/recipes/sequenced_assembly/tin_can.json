@@ -1,0 +1,38 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "carbonated_fooba_core:tin_plate"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "carbonated_fooba_core:tin_can"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "carbonated_fooba_core:incomplete_tin_can"
+        },
+        [
+          {
+            "tag": "forge:ingots/tin"
+          },
+          {
+            "item": "carbonated_fooba_core:tin_plate"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "create:incomplete_track"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "carbonated_fooba_core:incomplete_tin_can"
+  }
+}

@@ -2,10 +2,10 @@
   "type": "create:deploying",
   "ingredients": [
     {
-      "tag": "forge:tin"
+      "tag": "forge:ingots/tin"
     },
     {
-      "tag": "forge:tin"
+      "tag": "forge:ingots/tin"
     }
   ],
   "results": [

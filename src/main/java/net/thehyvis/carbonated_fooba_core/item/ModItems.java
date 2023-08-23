@@ -22,7 +22,7 @@ public class ModItems {
             () -> new FoobaItem(new Item.Properties().tab(CarbonatedFoobaTab.CARBONATED_FOOBA_TAB)
                     .stacksTo(17).food(new FoodProperties.Builder().nutrition(4)
                             .saturationMod(4).alwaysEat()
-                            .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 2000, 2), 1F)
+                            .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 2000, 3), 1F)
                             .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 10*20, 0), 0.2F)
                             .effect(() -> new MobEffectInstance(MobEffects.HEAL, 1, 2), 1F)
                             .effect(() -> new MobEffectInstance(MobEffects.POISON, 100, 2), 0.05F)
@@ -41,6 +41,11 @@ public class ModItems {
             () -> new Item(new Item.Properties().craftRemainder(ModItems.ENLARGED_GLASS_BOTTLE.get()).tab(CarbonatedFoobaTab.CARBONATED_FOOBA_TAB).stacksTo(17)));
 
     public static final RegistryObject<Item> ETIQUETTE = ITEMS.register("etiquette",
+            () -> new Item(new Item.Properties().tab(CarbonatedFoobaTab.CARBONATED_FOOBA_TAB).stacksTo(17)));
+    public static final RegistryObject<Item> TIN_PLATE = ITEMS.register("tin_plate",
+            () -> new Item(new Item.Properties().tab(CarbonatedFoobaTab.CARBONATED_FOOBA_TAB).stacksTo(17)));
+
+    public static final RegistryObject<Item> INCOMPLETE_TIN_CAN = ITEMS.register("incomplete_tin_can",
             () -> new Item(new Item.Properties().tab(CarbonatedFoobaTab.CARBONATED_FOOBA_TAB).stacksTo(17)));
 
 
