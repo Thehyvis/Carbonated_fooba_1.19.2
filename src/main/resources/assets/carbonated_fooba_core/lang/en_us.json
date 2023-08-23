@@ -5,8 +5,11 @@
 
   "item.carbonated_fooba_core.enlarged_glass_bottle": "Enlarged Glass bottle",
   "item.carbonated_fooba_core.enlarged_water_bottle": "Enlarged Water bottle",
+  "item.carbonated_fooba_core.enlarged_water_bottle": "Enlarged Water bottle",
+
 
   "tooltip.carbonated_fooba_core.carbonated_fooba_shift": "Contains soulsand. Can cause Nausea, Temporary blindness, poisoning, and withering. Product should not be consumed under any circumstances",
-  "tooltip.carbonated_fooba_core.carbonated_fooba": "Press SHIFT for more info"
+  "tooltip.carbonated_fooba_core.carbonated_fooba": "Press SHIFT for more info",
 
+  "itemGroup.carbonated_fooba_core": "Carbonated Fooba"
 }
