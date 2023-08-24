@@ -6,7 +6,8 @@
   "loops": 1,
   "results": [
     {
-      "item": "carbonated_fooba_core:tin_can"
+      "item": "carbonated_fooba_core:tin_can",
+      "count": 6
     }
   ],
   "sequence": [
