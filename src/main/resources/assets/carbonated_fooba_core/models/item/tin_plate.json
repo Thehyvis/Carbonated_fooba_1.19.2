@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "carbonated_fooba_core:item/tin_plate"
+    "layer0": "carbonated_fooba_core:item/compat/tin_plate"
   }
 }

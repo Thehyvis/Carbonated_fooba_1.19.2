@@ -1,16 +1,15 @@
 package net.thehyvis.carbonated_fooba_core.item;
-import com.mojang.blaze3d.shaders.Effect;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.ItemNameBlockItem;
 import net.thehyvis.carbonated_fooba_core.CarbonatedFoobaCore;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import net.thehyvis.carbonated_fooba_core.CarbonatedFoobaCore;
+import net.thehyvis.carbonated_fooba_core.block.ModBlocks;
 import net.thehyvis.carbonated_fooba_core.item.custom.FoobaItem;
 import net.thehyvis.carbonated_fooba_core.misc.CarbonatedFoobaTab;
 
@@ -47,6 +46,13 @@ public class ModItems {
 
     public static final RegistryObject<Item> INCOMPLETE_TIN_CAN = ITEMS.register("incomplete_tin_can",
             () -> new Item(new Item.Properties().tab(CarbonatedFoobaTab.CARBONATED_FOOBA_TAB).stacksTo(17)));
+
+    public static final RegistryObject<Item> FOOBERRY_SEEDS = ITEMS.register("fooberry_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.FOOBERRY_CROP.get(),
+               new Item.Properties().tab(CarbonatedFoobaTab.CARBONATED_FOOBA_TAB).stacksTo(17)));
+
+    public static final RegistryObject<Item> FOOBERRY = ITEMS.register("fooberry",
+            () -> new Item(new Item.Properties().fireResistant().food(new FoodProperties.Builder().nutrition(4).saturationMod(4).build()).tab(CarbonatedFoobaTab.CARBONATED_FOOBA_TAB).stacksTo(17)));
 
 
     public static void register(IEventBus eventBus) {

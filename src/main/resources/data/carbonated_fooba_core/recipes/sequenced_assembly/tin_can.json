@@ -7,7 +7,7 @@
   "results": [
     {
       "item": "carbonated_fooba_core:tin_can",
-      "count": 6
+      "count": 9
     }
   ],
   "sequence": [
@@ -20,7 +20,15 @@
         [
           {
             "tag": "forge:ingots/tin"
-          },
+          }
+        ]
+      ],
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "carbonated_fooba_core:incomplete_tin_can"
+        },
+        [
           {
             "item": "carbonated_fooba_core:tin_plate"
           }

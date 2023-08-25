@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "carbonated_fooba_core:block/grass_slab_bottom",
+    "top": "carbonated_fooba_core:block/grass_slab_top",
+    "side": "carbonated_fooba_core:block/grass_slab_side"
+  }
+}

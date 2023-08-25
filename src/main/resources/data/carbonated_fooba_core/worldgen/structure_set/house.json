@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "carbonated_fooba_core:house",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 69420123456789,
+
+    "spacing": 60,
+
+    "separation": 45,
+
+    "type": "minecraft:random_spread"
+  }
+}
