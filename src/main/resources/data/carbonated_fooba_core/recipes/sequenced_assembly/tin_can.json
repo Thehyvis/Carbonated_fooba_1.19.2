@@ -23,6 +23,13 @@
           }
         ]
       ],
+      "results": [
+        {
+          "item": "carbonated_fooba_core:incomplete_tin_can"
+        }
+      ]
+    },
+    {
       "type": "create:deploying",
       "ingredients": [
         {
@@ -36,7 +43,20 @@
       ],
       "results": [
         {
-          "item": "create:incomplete_track"
+          "item": "carbonated_fooba_core:incomplete_tin_can"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "carbonated_fooba_core:incomplete_tin_can"
+        }
+      ],
+      "results": [
+        {
+          "item": "carbonated_fooba_core:incomplete_tin_can"
         }
       ]
     }

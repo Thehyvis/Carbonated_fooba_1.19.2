@@ -11,6 +11,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.thehyvis.carbonated_fooba_core.block.ModBlocks;
 import net.thehyvis.carbonated_fooba_core.item.custom.FoobaItem;
+import net.thehyvis.carbonated_fooba_core.item.custom.SupremeFoobaItem;
 import net.thehyvis.carbonated_fooba_core.misc.CarbonatedFoobaTab;
 
 public class ModItems {
@@ -26,6 +27,22 @@ public class ModItems {
                             .effect(() -> new MobEffectInstance(MobEffects.HEAL, 1, 2), 1F)
                             .effect(() -> new MobEffectInstance(MobEffects.POISON, 100, 2), 0.05F)
                             .effect(() -> new MobEffectInstance(MobEffects.WITHER, 60, 3), 0.05F).build())));
+    public static final RegistryObject<Item> SUPREME_FOOBA = ITEMS.register("supreme_fooba",
+            () -> new SupremeFoobaItem(new Item.Properties().tab(CarbonatedFoobaTab.CARBONATED_FOOBA_TAB)
+                    .stacksTo(17).food(new FoodProperties.Builder().nutrition(4)
+                            .saturationMod(4).fast().alwaysEat()
+                            .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 2000, 3), 1F)
+                            .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 10*20, 0), 0.2F)
+                            .effect(() -> new MobEffectInstance(MobEffects.HEAL, 1, 2), 1F)
+                            .effect(() -> new MobEffectInstance(MobEffects.POISON, 100, 2), 0.05F)
+                            .effect(() -> new MobEffectInstance(MobEffects.WITHER, 60, 3), 0.05F).build())));
+
+
+    public static final RegistryObject<Item> EMPTY_SUPREME_FOOBA_CAN = ITEMS.register("empty_supreme_fooba_can",
+            () -> new Item(new Item.Properties().tab(CarbonatedFoobaTab.CARBONATED_FOOBA_TAB).stacksTo(17)));
+
+    public static final RegistryObject<Item> GOLD_CAN = ITEMS.register("gold_can",
+            () -> new Item(new Item.Properties().tab(CarbonatedFoobaTab.CARBONATED_FOOBA_TAB).stacksTo(17)));
 
     public static final RegistryObject<Item> EMPTY_CAN = ITEMS.register("empty_can",
             () -> new Item(new Item.Properties().tab(CarbonatedFoobaTab.CARBONATED_FOOBA_TAB).stacksTo(17)));
