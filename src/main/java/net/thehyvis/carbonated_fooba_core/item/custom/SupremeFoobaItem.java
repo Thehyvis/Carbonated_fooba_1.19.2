@@ -1,8 +1,9 @@
 package net.thehyvis.carbonated_fooba_core.item.custom;
 
 import net.minecraft.ChatFormatting;
-import net.minecraft.client.gui.screens.Screen;
-import net.minecraft.network.chat.Component;
+import net.minecraft.world.effect.MobEffect;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
@@ -10,10 +11,10 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
 import net.thehyvis.carbonated_fooba_core.item.ModItems;
+import net.minecraft.network.chat.Component;
 import org.jetbrains.annotations.Nullable;
-
+import net.minecraft.client.gui.screens.Screen;
 import java.util.List;
-
 public class SupremeFoobaItem extends Item{
 
     public static final int EAT_DURATION = 16;
@@ -35,6 +36,7 @@ public class SupremeFoobaItem extends Item{
             }
             return itemstack;
         }
+
 
     }
 
