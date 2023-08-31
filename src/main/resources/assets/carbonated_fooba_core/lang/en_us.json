@@ -14,8 +14,10 @@
   "tooltip.carbonated_fooba_core.carbonated_fooba_shift": "Contains soulsand. Can cause Nausea, Temporary blindness, poisoning, and withering. Product should not be consumed under any circumstances",
   "tooltip.carbonated_fooba_core.carbonated_fooba": "Press SHIFT for more info",
 
-  "tooltip.carbonated_fooba_core.supreme_fooba_shift": "Place a holder",
+  "tooltip.carbonated_fooba_core.supreme_fooba_shift": "Place a holder & this item is experimental",
   "tooltip.carbonated_fooba_core.supreme_fooba": "Press SHIFT for more info",
+
+  "tooltip.carbonated_fooba_core.experimental": "THIS ITEM IS EXPERIMENTAL",
 
   "itemGroup.carbonated_fooba_core": "Carbonated Fooba"
 }
